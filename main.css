@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: ;
+    background: #f2f6e9;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("https://www.freegreatpicture.com/files/197/13814-maze.jpg");
+  }
+.overlay {
+    position: center;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(177, 177, 177, 0.6);
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+      text-size-adjust: 20px;
+    background:#df6b36;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: rgb(139, 0, 253);
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: #000000;
+  }
+  .description p {
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  .description button {
+    border:1px solid #ff0000;
+    background:#ff0000;
+    border-radius: 0;
+    color:#fff;
+  }
+  .description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+  }
