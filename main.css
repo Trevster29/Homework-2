@@ -1,9 +1,13 @@
 body {
     padding: 0;
-    margin: ;
+    margin: 5px;
     background: #f2f6e9;
     background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("https://www.freegreatpicture.com/files/197/13814-maze.jpg");
   }
+.column{
+  color: black;
+  background-color: white;
+}
 .overlay {
     position: center;
     min-height: 100%;
