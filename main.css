@@ -2,11 +2,22 @@ body {
     padding: 0;
     margin: 5px;
     background: #f2f6e9;
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("https://www.freegreatpicture.com/files/197/13814-maze.jpg");
+    background-image: linear-gradient(rgba(124, 124, 250, 0.5), rgba(83, 156, 81, 0.5)), url("https://www.freegreatpicture.com/files/197/13814-maze.jpg");
   }
 .column{
   color: black;
   background-color: white;
+}
+.row{
+  padding: 15px;
+  margin: 5px;
+}
+.p{
+  color:black;
+  background-color: transparent;
+  text-size-adjust: 30px;
+  padding: 15px;
+  margin: 15px;
 }
 .overlay {
     position: center;
